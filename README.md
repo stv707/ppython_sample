@@ -25,7 +25,7 @@
 4. **Create a simple Flask application**:
    Create a file named `app.py` and add the following code:
 
-   ```python
+```python
 import os
 from flask import Flask
 
@@ -39,11 +39,12 @@ def hello_world():
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=5000)
 
-   ```
+```
 
 ### Step 2: Test the Application Natively
 
 1. **Run the Flask application**:
+
    ```bash
    python app.py
    ```
